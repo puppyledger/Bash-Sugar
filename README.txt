@@ -4,18 +4,13 @@
 Bash::Sugar is a collection of many utilities for file and 
 environment management. Many of these are generic sysadmin 
 utilities, but some are specific to managing perl projects. 
-They can be devided up into formats, stream editors, file 
-interrogators and file management tools. 
+They can be divided up into formats, stream editors, file 
+interrogators and file manipulation tools. 
 
 What is different about Bash::Sugar, is that the programs 
 are implemented both as perl methods, and as commands via 
 simple symbolic links. This allows identical functionality 
 when writing tools in perl, or in bash. 
-
-Much of the impetus for these tools is the difficulty 
-inherent to nesting data structures and escapes in Bash. 
-By using the tools in Bash::Sugar you can quickly generate 
-highly dynamic jobs in one command line statement. 
 
 Implementation of dual language functionality is by using 
 symlinks to the included program "sugar", which acts as 
@@ -23,6 +18,12 @@ a method accessor. A symlink to the program "sugar" that
 is named the same as a method, will function by running 
 the appropriate method. This is similar to how "busybox" 
 works. 
+
+Much of the impetus for these tools is the difficulty 
+inherent to nesting data structures and escapes in Bash. 
+By using the tools in Bash::Sugar you can quickly generate 
+highly dynamic jobs in one command line statement. 
+
 
 ### EXAMPLE: 
 
